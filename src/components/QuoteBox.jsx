@@ -14,8 +14,6 @@ const QuoteBox = () => {
     const [ color, setColor ] = useState( colorArray[ colorIndex ] );
     const [ background, setBackground ] = useState( backgroundArray[ colorIndex ] );
 
-    document.body.style.backgroundColor = colorPalette[ colorIndex ];
-
     const changeQuote = () => {
         const randomIndex = Math.floor( Math.random() * users.length );
         setIndex( randomIndex );
