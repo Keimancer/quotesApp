@@ -18,13 +18,13 @@ const QuoteBox = () => {
         const randomIndex = Math.floor( Math.random() * users.length );
         setIndex( randomIndex );
         setColor( colorArray[ colorIndex ] );
+        setBackground( backgroundArray[ colorIndex ] );
+        document.body.style.backgroundColor = colorPalette[ colorIndex ];
         if ( colorIndex < 4 ){
             setColorIndex( colorIndex + 1 );
         } else {
             setColorIndex( 0 );
         }
-        setBackground( backgroundArray[ colorIndex ] );
-        document.body.style.backgroundColor = colorPalette[ colorIndex ];
     }
 
     return (
