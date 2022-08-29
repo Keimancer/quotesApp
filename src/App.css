@@ -1,0 +1,93 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.quote-box {
+  background-color: white;
+  padding: 1rem 1.5rem;
+  display: flex;
+  width: 600px;
+  flex-direction: column;
+  box-shadow: 1px 1px 1px black;
+}
+
+.top-box {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.author {
+  align-self: flex-end;
+  font-weight: 400;
+}
+
+button {
+  width: 2.5rem;
+  height: 2.5rem;
+  box-shadow: 1px 1px 1px black;
+  align-self: flex-end;
+}
+
+h4 {
+  color: black;
+  display: inline-block;
+}
+
+.red-color {
+  color: rgb(255, 78, 78);
+}
+
+.green-color {
+  color: rgb(110, 255, 110);
+}
+
+.blue-color {
+  color: rgb(0, 40, 151);
+}
+
+.orange-color {
+  color: orange;
+}
+
+.pink-color {
+  color: palevioletred;
+}
+
+.purple-color {
+  color: purple;
+}
+
+.red-bg {
+background-color: rgb(255, 78, 78);
+}
+
+.green-bg {
+  background-color: rgb(110, 255, 110);
+}
+
+.blue-bg {
+ background-color: rgb(0, 40, 151);
+}
+
+.orange-bg {
+  background-color: orange;
+}
+
+.pink-bg {
+ background-color: palevioletred;
+}
+
+.purple-bg {
+  background-color: purple;
+}
